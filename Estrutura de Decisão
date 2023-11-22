@@ -1,0 +1,867 @@
+# Escolha do tipo da carne
+print ('1 - File Duplo')
+print ('2 - Alcatra')
+print ('3 - Picanha')
+tipoCarne = input('Informe o tipo da carne escolhida: ').upper()
+
+# Escolha da quantidade
+quantidade = float(input('Informe a quantidade comprada: '))
+
+# Verifica cartao
+cartaoTabajara = input('Usara cartao Tabajara (S/N): ').upper()
+
+print ('CUPOM FISCAL')
+
+# Verifica o tipo da carne e calcula o valor bruto
+if (tipoCarne == '1'):
+    print ('Carne Escolhida: File Duplo')
+    if (quantidade <= 5):
+        valorBruto = quantidade * 4.9
+    else:
+        valorBruto = quantidade * 5.8
+elif (tipoCarne == '2'):
+    print('Carne Escolhida: Alcatra')
+    if (quantidade <= 5):
+        valorBruto = quantidade * 5.9
+    else:
+        valorBruto = quantidade * 6.8
+else:
+    print ('Carne Escolhida: Picanha')
+    if (quantidade <= 5):
+        valorBruto = quantidade * 6.9
+    else:
+        valorBruto = quantidade * 7.8
+print ('Valor Bruto', valorBruto)
+
+# Verifica se possui desconto
+desconto = 0.0
+if (cartaoTabajara == 'S'):
+    print ('Pagamento com cartao Tabajara')
+    desconto = valorBruto * 0.05
+else:
+    print ('Pagamento nao sera com o cartao Tabajara')
+print ('Desconto: ', desconto)
+print ('Valor a Pagar: ', (valorBruto - desconto))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#print('TABELA DE FRUTAS')
+#print('=' * 30)
+#print('Acima de 5 Kg\n'
+#      'Morango'
+#      'R$ 2,20 por Kg\n'
+#      'Maça'
+#      'R$ 1.50 por Kg\n'
+#      'Até 5kg\n'
+#      'R$ 2,50 por Kg\n'
+#      'R$ 1,80 por Kg')
+
+
+
+#totalMorango = float(input('Informe a quantidade de morango Kg:'))
+#totalMacas = float(input('Informe a quantidade de maças Kg:'))
+
+#if (totalMorango <=5):
+#      totalMorango = totalMorango * 2.5
+#else:
+#      totalMorango = totalMorango * 2.2
+
+#if (totalMacas <=5):
+#      totalMacas = totalMacas * 1.8
+#else:
+#      totalMacas = totalMacas * 1.5
+
+#valorBruto = totalMorango + totalMacas
+
+
+#if ((totalMorango + totalMacas ) >= 8) or (valorBruto >= 25):
+
+#      valorBruto = valorBruto * 0.9
+
+
+#      print('Valor a pagar {:.2f}'.format(valorBruto))
+
+
+
+
+
+
+
+
+
+#print("=" * 30)
+#print('BANCO LEANDRO')
+#print('=' * 30)
+#valor = int(input('Qual e o valor a sacar? R$'))
+#total = valor
+#ced = 100
+#totCed = 0
+#while True: #Loop infinito
+#    if total >= ced:
+#        total -= ced #Tirar 100
+#        totCed += 1 # Quantas vezes eu consigo tirar 100 do total
+#    else:
+#        if totCed > 0:#
+#            print('Total de {} cédulas de {}'.format(totCed, ced))
+#        if ced == 100: #SE NÃO, não consigo tirar 100 vai virar 50
+#            ced = 50
+#        elif ced == 50:
+#            ced = 20
+#        elif ced == 20:
+#            ced = 10
+#        elif ced == 10:
+#            ced = 1
+#        totCed = 0
+#        if total == 0:
+#            break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#num = int(input('Informe um número:'))
+#u = num // 1 % 10 # num divisão inteira por 1, será o ,mesmo numero que será divido por 10, que pegara o resto da divisão
+#d = num // 10 % 10
+#c = num // 100 % 10
+#m = num // 1000 % 10
+
+#print('Analisando o número {}'.format(num))
+#print('Unidade: {}'.format(u))
+#print('Dezena: {}'.format(d))
+#print('Centena: {}'.format(c))
+#print('Milhar: {}'.format(m))
+
+
+
+
+
+
+
+
+
+
+
+
+
+#print('1 - File Duplo')
+#print('2 - Alcatra')
+#print('3 - Picanha')
+#tipoCarne = float(input('Informe o tipo de carne escolhida:'))
+
+# Escolha da quantidade
+#quantidade = float(input('Informe a quantidade comprada:'))
+
+#Verifica cartão
+
+#cartaoTabajara = float(input('Usara cartão tabajara (S/N):'))
+
+#print('CUPOM FISCAL')
+
+# Verifica o tipo da carne e calcula o valor bruto:
+
+#if (tipoCarne == 1):
+#    print('Carne Escolhida: File Duplo')
+#    if (quantidade <= 5):
+#        valorBruto = quantidade * 4.9
+#    else:
+#        valorBruto = quantidade * 5.8
+
+#elif(tipoCarne == 2):
+#    print('Carne Escolhida: Alcatra')
+#    if (quantidade <= 5):
+#        valorBruto = quantidade * 5.9
+#    else:
+#        valorBruto = quantidade * 6.8
+
+#else:
+#    print('Carne Escolhida: Picanha')
+#    if (valorBruto <= 5):
+#        valorBruto = quantidade * 6.9
+#    else:
+#        valorBruto = quantidade * 7.8
+
+#print('Valor Bruto', valorBruto)
+
+#verifica se possui desconto
+
+#if (cartaoTabajara == 'S'):
+#    desconto = valorBruto * 0.05
+#else:
+#    print('Pagamento não será com o cartão Tabajara')
+
+#print('Desconto {}'.format(desconto))
+#print('Valor a pagar é  {}'.format(valorBruto - desconto))
+
+
+
+
+
+
+
+
+
+
+
+#tabu = int(input('Qual tabuada voce quer saber:'))
+
+#c = 0
+#while c<10:
+#    c+=1
+
+#    print(tabu,'x',c,'=',(tabu * c))
+
+
+#valor = float (input('Informe um numero:'))
+
+#print('1 - Par ou Impar')
+#print('2 - Positivo ou Negativo')
+#print('3 - Inteiro ou Decimal ')
+#opcao = (input('Escolha uma das opções:'))
+
+#if (opcao == '1'):
+#    if (valor % 2 == 0):
+
+#        print('Par')
+
+#    else:
+#        print('Impar')
+
+#if (opcao == '2'):
+#    if (valor >0):
+#        print('Positivo')
+
+#    elif (valor < 0):
+#        print('Negativo')
+
+#if (opcao == '3'):
+#    if valor == int(valor):
+
+#        print('Numero é Inteiro')
+
+#    else:
+
+#        print('Número é Decimal')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#valor = float(input('Informe um numero:'))
+
+#if valor == int(valor):
+
+#    print('Valor e inteiro')
+
+#else:
+
+#    print('Valor e decimal')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#num = int(input('Digite um número:'))
+
+#if num%2==0:
+
+#    print('Par')
+
+#else:
+
+#    print('Impar')
+
+
+
+
+
+
+
+
+
+
+
+
+#data = input('Informe uma data no formato dd/mm/yyyy:')
+
+#dia = int(data[0:2])
+#mes = int(data[3:5])
+#ano = int(data[6:])
+
+#print(dia, mes, ano)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ano = int(input('Digite um ano:'))
+
+#bissexto = False
+#if ano%4==0:
+#   bissexto = True
+#    if (ano % 100 == 0) and (ano % 400 !=0):
+#        bissexto = False
+
+#if bissexto:
+#    print('O ano e BISSEXTO')
+
+#else:
+#    print('O anp não é BISSEXTO')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#lado1 = int((input('Informe o lado 1: ')))
+#lado2 = int((input('Informe o lado 2: ')))
+#lado3 = int((input('Informe o lado 3: ')))
+
+
+#if (lado1 > (lado2 + lado3)) or (lado2 > (lado1 + lado3)) or (lado3 > (lado1 + lado2)):
+#    triangulo = False
+#else:
+#    triangulo = True
+
+#if (triangulo):
+
+#    print('Os Valores formam um triangulo')
+
+#    if lado1 == lado2 and lado2 == lado3:
+
+#        print('Triângulo Equilátero')
+
+#    elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
+
+#        print('Triângulo Isósceles')
+
+#    elif lado1 != lado2 and lado2 != lado3:
+
+#        print('Triângulo Escaleno')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nota1 = float(input('Qual foi sua 1 nota:'))
+#nota2 = float(input('Qual foi sua 2 nota:'))
+
+#media = (nota1 + nota2) /2
+
+#if media < 4:
+#    print('Conceito: E')
+#    aprovado = False
+
+#elif media < 6:
+#    print('Conceito: D')
+#    aprovado = False
+
+#elif media < 7.5:
+#    print('Conceito: C')
+#    aprovado = True
+
+#elif media < 9.0:
+#    print('Conceito: B')
+#    aprovado = True
+
+#elif media < 10.0:
+#    print('Conceito: A')
+#    aprovado = True
+
+
+
+#if aprovado:
+#    print('APROVADO')
+#else:
+#    print('REPROVADO')
+
+
+#print('Sua média foi {}'.format(media))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#digita = int(input('Informe um numero para saber o dia da semana:'))
+
+#if digita == 1:
+
+#    print(digita,'Domingo')
+
+#elif digita == 2:
+
+#    print(digita, 'Segunda')
+
+#elif digita == 3:
+
+#    print(digita, 'Terça')
+
+
+#elif digita == 4:
+
+#    print(digita, 'Quarta')
+
+#elif digita == 5:
+
+#    print(digita, 'Quinta')
+
+
+#elif digita == 6:
+
+#    print(digita, 'Sexta')
+
+
+#elif digita == 7:
+
+#    print(digita, 'Sabado')
+
+
+#else:
+
+#    print('Valor Inválido')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#salarioAtual = float(input('Qual e o seu salário:'))
+
+
+#if salarioAtual <=280.00:
+
+#    aumento = (salarioAtual * 20)/100
+#    percentual = 20
+
+#elif salarioAtual <= 780.00:
+
+#    aumento = (salarioAtual * 15)/100
+#    percentual = 15
+
+#elif salarioAtual <= 1500.00:
+
+#    aumento = (salarioAtual * 10)/100
+#    percentual = 10
+
+#else:
+
+#    aumento = (salarioAtual * 5)/100
+#    percentual = 5
+#novoAumento = salarioAtual + aumento
+
+
+#print('O salário antes do reajuste :', salarioAtual)
+#print('O percentual de aumento aplicado : ', percentual,'%')
+#print('Valor do aumento :{:.2f} '.format(aumento))
+#print('O novo salario será de : R${} '.format(novoAumento))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#turno = input('Em que turno você estuda: ')
+
+#if turno == 'M':
+#    print('Bom dia')
+
+#elif turno == 'V':
+#    print('Boa Tarde')
+
+#elif turno == 'N':
+#    print('Boa noite')
+
+#else:
+#    print('Valor Inválido')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#c = 99
+#while c > 0:
+#    c+=1
+#    print(c , ' ')
+
+
+
+
+
+
+
+
+
+
+
+
+
+#produto1 = float(input('Informe o valor do 1 produto: '))
+#produto2 = float(input('Informe o valor do 2 produto: '))
+#produto3 = float(input('Informe o valor do 3 produto: '))
+
+#if produto1 < produto2 and produto3:
+#    print('Produto 1 é barato.')
+
+#elif produto2 < produto1 and produto3:
+#    print('Produto 2 é barato.')
+
+#elif produto3 < produto1 and produto2:
+#    print('Produto 3 é barato.')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#num1 = int(input('Digite um número:'))
+#num2 = int(input('Digite um número:'))
+#num3 = int(input('Digite um número:'))
+
+#if num1 > num2:
+#    num2 < num1
+#    print('O maior numero é ', num1)
+
+#elif num2 > num1:
+#    num1 < num2
+#    print('O maior numero é ', num2)
+
+#elif num3 > num1:
+#    num1 < num3
+#    print('O maior numero é ', num3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nota1 = float(input('Informe a nota 1:'))
+#nota2 = float(input('Informe a nota 2:'))
+
+#soma = (nota1 + nota2) /2
+
+#soma>=10
+
+#if soma >= 7.0 :
+
+#    print('Aprovado')
+
+#elif soma < 7.0:
+
+#    print('Reprovado')
+
+#elif soma>= 10:
+
+#    print('Aprovado com Distinção')
+
+
+#print('A média foi {}'.format(soma))
+
+
+
+
+
+
+
+
+
+
+
+
+#letra = input('Digite uma letra:')
+
+#vogal = (['a', 'e', 'i', 'o', 'u'])
+
+#if letra == vogal[0] or letra == vogal[1] or letra == vogal[2] or letra == vogal[3] or letra == vogal[4]:
+
+#    print('Vogal')
+
+#else:
+
+#    print('Consoante')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sexo = input('Digite F ou M: ')
+
+#if sexo == 'F':
+
+#    print('Feminino')
+
+#elif sexo == 'M':
+
+#    print('Masculino')
+
+#else:
+
+#    print('Sexo Inválido ')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#num = int(input('Digite um numero: '))
+
+#if num > 0:
+#    print('Positivo')
+
+#else:
+#    print('Negativo')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#num1 = int(input('Digite um numero: '))
+#num2 = int(input('Digite outro numero: '))
+
+#if num1 > num2:
+#    num2 < num1 # Então num2 e menor que num1
+
+#    print('O num1 é ', num1 , 'e o Maior.')
+
+#elif num2 > num1:
+#    num1 < num2
+
+#    print('O num2', num2 , ' e o Maior.')
+
+
+
+
+
+
