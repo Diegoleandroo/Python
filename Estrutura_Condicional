@@ -1,0 +1,451 @@
+mb = float (input('Qual o tamanho de arquivo para dowloand em MB:'))
+mbps = float (input('Qual a velocidade em Mbps ? '))
+
+calcuMB = (mb / 0.001)
+
+calcuVE = (mbps * 1.0000)
+
+print(f'Em MB {mb} equivale a {calcuMB}')
+print(f'Em mbps equivale a {calcuVE}')
+
+
+
+
+
+
+
+
+
+
+
+#area = float(input('Qual o valor da área a ser pintada em metros ? '))
+
+#litro = (area / 3)
+#latas = int(litro / 18)
+#if (litro% 18 != 0):
+#    latas +=1
+
+#print('Você deverá comprar' , latas, 'Latas.')
+#print('O valor total é ', latas * 80)
+
+
+
+
+
+
+
+
+
+
+#import math
+
+#raio = int(input("Informe a medida do raio de um circulo: "))
+#print("A area do circulo de raio", raio, "eh", (2*math.pi*raio))
+
+
+
+
+
+#tamanho = float(input('Informe o tamanho do arquivo (em MB):'))
+#velocidade = float(input('Informe a velocidade de conexão (em Mbps):'))
+
+
+#tamanhoBits = tamanho * 1024 * 1024 * 8
+#tempoSegundos = tamanhoBits / (velocidade * 1024 * 1024)
+#tempoMinutos = tempoSegundos / 60
+
+#print('Tempo aproximado de download:', tempoMinutos, 'minutos')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tamanho = input('Quantos metros quadrados devem ser pintados: ')
+
+#litros = float(tamanho / 6.0) * 1.1 # 10% de folga
+#latas = int(litros / 18.0)
+#galoes = int(litros / 3.6)
+
+
+#if litros % 18 != 0:
+
+#    latas += 1
+
+#elif galoes % 3.6 != 0:
+
+#    galoes += 1
+
+#mixLatas = int(litros / 18.0)
+#mixGaloes = int((litros - (mixLatas * 18.0)) / 3.6)
+#if ((litros - (mixLatas * 18.0) % 3.6 != 0)):
+#    mixGaloes += 1
+
+#print('Latas:', latas , ' Valor ' , latas * 80)
+#print('Galoes:', galoes, '. Valor:', galoes * 25)
+#print('Latas:', mixLatas, 'e', mixGaloes , '. valor: ', (mixLatas * 80)+ (mixGaloes * 25))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tamanho = float(input('Quantos metros quadrados devem ser pintados: '))
+
+#litros = int(tamanho / 3.0)
+#latas = int(litros / 18.0)
+
+#if(litros % 18 != 0):
+
+#    latas +=1
+
+#print('Você deverá comprar' , latas , 'latas.')
+#print('O valor total e:', (latas * 80))
+
+
+
+
+
+
+
+
+
+
+
+
+
+#valorPorHora = float(input('Quanto você ganhar por hora: '))
+#horasTrabalhadas = float(input('Quantas horas você trabalhou no mês: '))
+
+#salarioBruto = valorPorHora * horasTrabalhadas
+#impostoRenda = salarioBruto * 0.11
+#inss = salarioBruto * 0.08
+#sindicato = salarioBruto * 0.05
+#salarioLiquido = salarioBruto - impostoRenda - inss - sindicato
+
+#print('Salario Bruto:', salarioBruto)
+#print('Imposto de Renda:', impostoRenda)
+#print('INSS:', inss)
+#print('Sindicato:', sindicato)
+#print('Salario Liquido:', salarioLiquido)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#peso = float(input('Informe o peso dos peixes pescados:'))
+#multaPorQuilo = 4.0
+#pesoMaximo = 50.0
+
+#if (peso > pesoMaximo):
+#    excesso = peso - pesoMaximo
+#    print('Excesso de peso: {}'.format(excesso))
+#    print('Valor da multa por excesso {}'.format(excesso * multaPorQuilo))
+
+#else:
+
+#    print('Não houve excesso de peso')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sexo = input('Informe seu sexo (M/F): ')
+#altura = float(input('Informe sua altura (em metros): '))
+#peso = float(input('Informe o seu peso (em kg):' ))
+
+#if  sexo == 'M':
+
+#    pesoIdeal = (72.7 * altura) - 58
+
+#elif sexo == 'F':
+
+#    pesoIdeal = (62.1 * altura) - 44.7
+
+
+#if (peso > pesoIdeal):
+
+#    print('Você está acima do seu peso ideal {}'.format(pesoIdeal))
+
+#elif (peso < pesoIdeal):
+
+#    print('Você está abaixo do seu peso ideal {}'.format(pesoIdeal))
+
+#else:
+
+#    print('Você está no seu peso ideal {2:.f}'.format(pesoIdeal))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#altura = float(input('Qual a sua altura:'))
+#pesoIdeal = (72.7 * altura) - 58
+#print('O peso é {}'.format(pesoIdeal))
+
+
+
+
+
+
+
+
+#import math
+
+#nu1 = int(input('Informe o primeiro número:'))
+#nu2 = int(input('Informe o segundo número:'))
+#nu3 = float(input('Informe o terceiro número:'))
+
+#pro1 = (nu1 * 2) / (nu2 / 2.0)
+#pro2 = (nu1 * 3) + nu3
+#pro3 = math.pow(nu3, 3)
+
+#print('O dobro do primeiro vezes a metade do segundo e', pro1)
+#print('A soma do triplo do primeiro com o terceiro e', pro2)
+#print('O terceiro elevado ao cubo e', pro3)
+
+
+
+
+
+
+
+
+
+
+#celsius = int(input('Informe a temperatura em Celsius:'))
+#farenheit = ((celsius / 5.0) + 32.0)
+
+#print('A temperatura em farenheit e {}'.format(farenheit))
+
+
+
+
+
+
+
+
+
+
+
+
+#f = int(input('A temperatura em graus Fahrenhet é:'))
+
+#c =  5 * ((f - 32)/9.0)
+
+#print('A temperatura em graus Celsius é :{}'.format(c))
+
+
+
+
+
+
+
+
+
+
+
+
+#valorPorHora = int(input('Qual o valor da sua hora trabalhada: '))
+#horas = int(input('Informe a quantidade de horas trabalhadas: '))
+#print('Seu salario neste mes sera', valorPorHora * horas)
+
+
+
+
+
+
+#num = int(input('Qual e a área ao quadrado de ²:'))
+
+#raiz = num * num
+
+#dobro = (num * num)*2
+
+#print('A área é {}'.format(raiz))
+#print('O dobro da área é {}'.format(dobro))
+
+
+
+
+
+
+
+
+
+
+
+
+#import math
+
+
+#num = int(input('Digite o circulo do raio: '))
+
+#pia = 2 * num * math.pi
+
+#print('O valor do circulo é {}'.format(pia))
+
+
+
+
+
+
+
+
+#nu = int(input('informe o valor em metros:'))
+
+#cm = 100
+
+#resu = nu * cm
+
+#print('{} metro equivale a {}cm.'.format(nu,resu))
+
+
+
+
+
+
+
+
+
+
+
+
+
+#3 nu1 = int(input('Digite o 1 nota:'))
+#nu2 = int(input('Digite o 2 nota:'))
+#nu3 = int(input('Digite o 3 nota:'))
+#nu4 = int(input('Digite o 4 nota:'))
+
+#media = (nu1 + nu2 + nu3 + nu4)/4
+
+#print('A média é {}'.format(media))
+
+
+
+
+
+# 2 nu1 = int(input('Digite o 1 número:'))
+#nu2 = int(input('Digite o 2 número:'))
+
+#soma = nu1 + nu2
+
+#print('A soma é {}'.format(soma))
+
+
+
+
+
+#num = int(input('Digite um número:'))
+
+#print('O número digitado é {}.'.format(num))
+
+
+
+
+
+
+
+
+
+
+
+
+
+#class conta:
+
+#    def __init__(self , numeroConta, nome, saldo = 0):
+#        self.numeroConta = numeroConta
+#        self.nome = nome
+#        self.saldo = saldo
+
+
+#    def alterarNome(self, nome):
+ #       self.nome = nome
+
+#    def deposito(self, saldo):
+ #       self.saldo += saldo
+
+ #   def saque(self, saldo):
+ #       self.saldo -= saldo
+
