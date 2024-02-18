@@ -1,1 +1,1641 @@
 
+
+
+
+# 48 - numero = input('Informe um número:')
+
+#print(numero[::-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 47 - maiorNota = 0
+#menorNota = 0
+#soma = 0
+
+#atleta = input('Qual e o seu nome:')
+
+#print('A nota terá será informada de 1 à 7')
+
+#for i in range(0,7):
+
+#    nota = float(input('Nota:'))
+#    soma+=nota
+
+#    if ('maiorNota' not in vars()) or (nota > maiorNota):
+#        maiorNota = nota
+
+#    if ('menorNota' not in vars()) or (nota < menorNota):
+#        menorNota = nota
+
+#soma -= maiorNota
+#soma -= menorNota
+
+
+#    media = soma / 7
+
+#print('Atleta: ', atleta)
+#print('A maior nota e {}'.format(maiorNota))
+#print('A menor nota e {}'.format(menorNota))
+#print('A media {:.2f}'.format(soma / 5.0))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 46 - atleta = ''
+#maior = 0
+#menor = 0
+
+
+#while atleta == '':
+
+#    atleta = input('Qual e o nome do atleta:')
+
+
+#    salto = float(input('Primeiro Salto:'))
+#    salto = float(input('Segundo Salto:'))
+#    salto = float(input('Terceiro Salto:'))
+#    salto = float(input('Quarto Salto:'))
+#    salto = float(input('Quinto Salto:'))
+
+#    if 'maior' not in vars() or salto > maior:
+#        maior = salto
+
+#    if 'menor' not in vars() or salto < menor:
+#        menor = salto
+
+#print('O maior salto e', maior)
+#print('O menor salto e', menor)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 45 -continua = 'S'
+#totalAlunos = 0
+#somaAcertos = 0
+#menorAcerto = 0
+#maiorAcerto = 0
+
+
+
+
+#while continua.upper() == 'S':
+
+
+#    acertos = 0
+#    print('Informe a resposta de cada questão')
+#    resposta = input('Questão 1:').upper()
+#    if resposta == 'A':
+#        acertos+=1
+
+#    resposta = input('Questão 2:').upper()
+#    if resposta == 'B':
+#        acertos+=1
+
+
+
+#    resposta = input('Questão 2:').upper()
+#    if resposta == 'B':
+#        acertos+=1
+
+
+
+#    resposta = input('Questão 3:').upper()
+#    if resposta == 'C':
+#        acertos+=1
+
+
+
+
+#    resposta = input('Questão 5:').upper()
+#    if resposta == 'E':
+#        acertos+=1
+
+
+
+
+
+#    resposta = input('Questão 6:').upper()
+#    if resposta == 'E':
+#        acertos+=1
+
+
+
+#    resposta = input('Questão 7:').upper()
+#    if resposta == 'D':
+#        acertos+=1
+
+
+
+
+#    resposta = input('Questão 8:').upper()
+#    if resposta == 'C':
+#        acertos+=1
+
+
+#    resposta = input('Questão 9:').upper()
+#    if resposta == 'B':
+#        acertos+=1
+
+#    resposta = input('Questão 10:').upper()
+#    if resposta == 'A':
+#        acertos+=1
+
+#    somaAcertos+=acertos
+#    print('Total de Acertos {}'.format(acertos))
+
+
+
+
+#    if acertos > maiorAcerto:
+#        maiorAcerto = acertos
+
+
+#    if ('menorAcerto' not in vars()) or (acertos < menorAcerto):
+#       menorAcerto = acertos
+
+
+
+#    totalAlunos+=1
+
+#    continua = input('Deseja continua [S/N]:').upper()
+
+#print('Maior acerto ', maiorAcerto)
+#print('Menor acerto ', menorAcerto)
+#print('Total de alunos que utilizaram o sistema ', totalAlunos)
+#print('Média de acertos ', somaAcertos / float(totalAlunos))
+
+
+
+
+
+
+
+# 44- print('1 - Jose')
+#print('2 - João')
+#print('3 - Bia')
+#print('4 - Leila')
+#print('5 - Voto Nulo')
+#print('6 - Voto em Branco')
+
+#opcao1 = opcao2 = opcao3 = opcao4 = opcao5 = opcao6 = 0
+
+#voto = 1
+#totalVotos = 0
+
+#while voto >=1 and voto <=6:
+
+#    voto = int(input('Digite o seu voto:'))
+
+#    if voto >=1 and voto <=6:
+
+#        if voto == 1:
+#            opcao1+=1
+
+#        elif voto == 2:
+#            opcao2+=1
+
+#        elif voto == 3:
+#            opcao3+=1
+
+#        elif voto == 4:
+#            opcao4+=1
+
+#        elif voto == 5:
+#             opcao5+=1
+
+#        elif voto == 6:
+#             opcao6+=1
+
+#        totalVotos+=1
+
+
+
+#print('1 - joão votos ', opcao1)
+#print('2 - jose votos ', opcao2)
+#print('3 - Bia votos ', opcao3)
+#print('4 - Leila votos ', opcao4)
+#print('5 - voto nulo'  , opcao5)
+#print('6 - voto Branco', opcao6)
+#print('A porcentagem nulo e {:.2f}'.format(opcao5 / float(totalVotos) * 100))
+#print('A porcentagem branco e {:.2f}'.format(opcao6 / float(totalVotos) * 100))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 43 - print ('Especificacao   Codigo  Preco')
+#print ('Cachorro Quente 100     R$ 1,20')
+#print ('Bauru Simples   101     R$ 1,30')
+#print ('Bauru com Ovo   102     R$ 1,50')
+#print ('Hamburger       103     R$ 1,20')
+#print ('Cheeseburger    104     R$ 1,30')
+#print ('Refrigerante    105     R$ 1,00')
+
+
+#cachorro = 0
+#bauru = 0
+#bauruOvo = 0
+#ham = 0
+#chee = 0
+#refri = 0
+#total = 0
+#codigo = 100 # inicio
+
+#while codigo >= 100 and codigo <=105: # Se o usuario digitar > que 105 o programa será
+                                      # finalizado
+
+#    codigo = int(input('Digite o codigo especifico:'))
+
+
+#    if codigo >= 100 and codigo <=105: # Programa dará continuidade
+
+
+#        quantidade = int(input('Informe a quantidade:'))
+
+
+#        if codigo == 100:
+
+#            print('Cachorro Quente')
+#            calcular = 1.2 * quantidade
+#            cachorro+=calcular
+
+
+
+#        elif codigo == 101:
+
+#            print('Bauru Simples')
+#            calcular = 1.3 * quantidade
+#            bauru+=calcular
+
+
+ #       elif codigo == 102:
+
+ #           print('Bauru com Ovo')
+ #           calcular = 1.5 * quantidade
+ #           bauruOvo+=calcular
+
+
+  #      elif codigo == 103:
+
+  #          print('Hambúrguer')
+  #          calcular = 1.2 * quantidade
+  #          ham+=calcular
+
+
+   #     elif codigo == 104:
+
+    #        print('Cheeseburguer')
+    #        calcular = 1.3 * quantidade
+    #        chee+=calcular
+
+
+     #   elif codigo == 105:
+
+     #       print('Refrigerante')
+     #       calcular = 1.0 * quantidade
+     #       refri+=calcular
+
+      #  total+=calcular
+
+#print('O total geral e {:.2f}'.format(total))
+
+
+#print('O valor a pagar e R${:.2f}'.format(cachorro))
+#print('O valor a pagar e R${:.2f}'.format(bauru))
+#print('O valor a pagar e R${:.2f}'.format(bauruOvo))
+#print('O valor a pagar e R${:.2f}'.format(ham))
+#print('O valor a pagar e R${:.2f}'.format(chee))
+#print('O valor a pagar e R${:.2f}'.format(refri))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 42 - num = 0
+
+#intervalo025 = 0
+#intervalo2650 = 0
+#intervalo5175 = 0
+#intervalo76100 = 0
+
+#while num >= 0:
+#    num = int (input('Digite um numero:'))
+
+#    if num > 0:
+#        if num <=25:
+#            intervalo025+=1
+
+#        elif num <= 51:
+#            intervalo2650+=1
+
+#        elif num <= 75:
+#            intervalo76100+=1
+
+#        elif num <= 100:
+#            intervalo76100+=1
+
+
+
+#print('Na escala de [0-25] tem {}'.format(intervalo025))
+#print('Na escala de [25-50] tem {}'.format(intervalo2650))
+#print('Na escala de [51-75] tem {}'.format(intervalo5175))
+#print('Na escala de [76-100] tem {}'.format(intervalo76100))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 41 - divida = float(input('Informe o valor da divida: '))
+
+
+#print('valor da divida | Valor dos juros | Quantidade de Parcelas | Valor da Parcela  ')
+
+
+#juros = 0
+
+#for i in [1, 3 , 6, 9 , 12]:
+
+#    valorJuros = (divida * (juros / 100.0))
+#    valorDivida = divida + valorJuros
+#    valorParcela = valorDivida / i
+
+#    print('  {}                   {:.2f}                        {}                  {:.2f}'.format(valorDivida, valorJuros, i, valorParcela))
+
+
+#    if (i == 1):
+#        juros =10
+
+#    else:
+#        juros +=5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 40 -somaVeiculos = 0
+#somaAcidentes = 0
+#somaAcidentesMenos2mil = 0
+#totalCidadesMenos2mil = 0
+#maisAcidentes = -1
+#menosAcidentes = -1
+
+#for i in range(0,3):
+
+#    codigo = int(input('Informe o codigo da cidade:'))
+#    veiculos = int(input('Informe o numero de veiculos de passeio:'))
+#    acidentes = int(input('Informe a quantidade de acidentes em 1999:'))
+
+
+#    indiceAcidentes = acidentes / veiculos
+#    somaVeiculos += veiculos
+
+
+#    if indiceAcidentes > maisAcidentes:
+#        maisAcidentes = indiceAcidentes
+#        codigoMaisAcidentes = codigo
+
+
+#    if ('menosAcidentes' not in vars() or indiceAcidentes < menosAcidentes):
+#        menosAcidentes = indiceAcidentes
+#        codigoMenosAcidentes = codigo
+
+#    if (veiculos < 2000):
+#        somaAcidentesMenos2mil += acidentes
+#        totalCidadesMenos2mil += 1
+
+
+
+#print('A cidade com maior indice de acidentes e {} com {} '.format(codigoMaisAcidentes, maisAcidentes))
+
+#print('A cidade com menor indice de acidentes e {} com {}'.format(codigoMenosAcide6ntes, menosAcidentes))
+
+#print('A media de veiculos nas cidade e {:.2f}'.format(somaVeiculos / 5.0))
+
+#print('A media de acidentes de transito nas cidades comens de 2Km veiculos e {:.2f}'.format(somaAcidentesMenos2mil / totalCidadesMenos2mil))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 39 - alto = -1
+#baixo = 0
+#numero = -1
+
+
+#for i in range(0,10):
+
+#    alunos = int(input('Informe o numero do aluno:'))
+#    altura = float(input('Informe a altura do aluno:'))
+
+
+#    if altura > alto:
+#        alto = altura
+#        codigoAlto = alunos
+
+#    if ('maisBaixo' not in vars() or (altura < maisBaixo)):
+#        maisBaixo = altura
+#        codigoBaixo = alunos
+
+
+#print('O aluno mais alto e do codigo {} com {:.2f}'.format(codigoAlto, alto))
+#print('O aluno mais baixo e do codigo {} com {:.2f}'.format(codigoBaixo, maisBaixo))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 37 - salario = 1000
+#percentual = 1.5
+#ano = 1996
+
+#while(ano <= 2024):
+
+#    print('Ano {} Percentual {:.2f} Salario {:.2f}'.format(ano, percentual, salario))
+
+#    salario+= (salario * (percentual / 100.0))
+#    percentual*= 2
+#    ano +=1
+
+#print('Salario atual do funcionário e: {}'.format(salario))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 36 - tabuada = int(input('Montar a tabuada do:'))
+
+#comecar = -1
+#while (comecar < 0):
+#    comecar = int(input('Começar por:'))
+
+#    if (comecar < 0):
+#        print('O numero deve ser maior que 0')
+
+#terminar = comecar
+#while (comecar >= terminar):
+#    terminar = int(input('Terminar em:'))
+
+#    if (comecar >= terminar):
+#        print('Deve terminar com um número maior que o de começar')
+
+
+#print('Vou montar a tabuada de', tabuada , 'começando em', comecar, 'e terminando em ', terminar)
+
+
+#for i in range(comecar, terminar + 1):
+
+#    print(tabuada , 'X', i ,'=' ,(tabuada * i))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 34 - primo = int (input('Informe um numero primo:'))
+
+#if primo % 2 != 0:
+
+#    print('Primo')
+
+#else:
+
+#    print('Não e Primo')
+
+
+
+
+
+
+
+
+
+
+# 33 - quantidade = 0
+
+#while quantidade <=0:
+
+#    quantidade = int(input('Informe a quantidade das temperaturas:'))
+
+#    if quantidade <=0:
+
+#        print('Numero positivo')
+
+
+#maior = 0
+#menor = 1
+#soma = 0.0
+
+#for i in range(0, quantidade):
+
+#    temperatura = int(input('Informe a temperatura:'))
+
+#    if temperatura > maior:
+#        maior = temperatura
+
+#    else:
+#        menor = temperatura
+
+#    soma +=temperatura
+
+#media = soma / quantidade
+
+#print('A maior temperatura e {:.2f}'.format(maior))
+#print('A menor temperatura e {:.2f}'.format(menor))
+#print('Media da temperatura e {:.2f}'.format(media))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 31 - soma = 0
+#produto = 1
+
+#while produto !=0:
+
+#    produto = float(input('Informe o valor do produto :'))
+
+#    soma += produto
+
+#print('O total a pagar será de R${:.2f}'.format(soma))
+
+#pagar = float(input('Irá pagar com que valor:R$ '))
+
+#troco = pagar - soma
+
+#print('Total: R${:.2f}'.format(soma))
+#print('Dinheiro: R${:.2f}'.format(pagar))
+#print('Troco: R${:.2f}'.format(troco))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 30 - print('Preço doo Pão: R$ 0.18')
+#print('Panificadora Pão de Ontem - Tabela de preços')
+
+#for i in range(1,51):
+
+#    print(i,'-', i * 0.18)
+
+
+
+
+# 29 - print('Lojas Quase Dois - Tabela de preços')
+
+#for i in range(1,51):
+#    print(i,'-', i * 1.99)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 28 - quantidade = 0
+
+#while quantidade <=0:
+
+#    quantidade = int(input('Informe a quantidade de CDs:'))
+
+#    if quantidade <=0:
+
+#        print('Numero tem que ser positivo')
+
+#soma = 0
+
+#for i in range(0, quantidade):
+#    valor = -1
+
+#    while valor <=0:
+
+#        valor = float(input('Valor de cada CDs:'))
+
+#        if valor <=0:
+
+#            print('O valor deve ser maior ou igual a 0')
+
+#    soma += valor
+
+#media = soma / quantidade
+
+
+#print('Quantidade de CDs: {}'.format(quantidade))
+#print('O valor médio dos CDs {}'.format(media))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 27 - quantidade = 0
+
+#while quantidade<=0:
+
+#    quantidade = int(input('Informe a quantidade de turmas:'))
+#    if quantidade<=0:
+
+#        print('A quantidade deve ser positiva')
+
+#soma = 0
+
+#for i in range(0,quantidade):
+#    alunos = -1
+
+#    while alunos < 0 or alunos > 40:
+
+#        alunos = int(input('Informe a quantidade de alunos da turma:'))
+
+#        if alunos < 0 or alunos > 40:
+
+#            print('Quantidade de alunos não pode ser maior que 40')
+
+#    soma +=alunos
+
+#media = soma / quantidade
+
+
+#print('A media por aluno por turma e {}'.format(media))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 26 - eleitor = 0
+
+#while eleitor <=0:
+
+#    eleitor = int(input('Quantos eleitores iram votar:'))
+
+#    if eleitor <=0:
+
+#        print('Invalido')
+
+#pl = 0
+#pt = 0
+#ptd = 0
+
+#for i in range(0, eleitor):
+
+#    votar = str(input('vote no seu candidato:'))
+
+
+#    if votar == 'Bolsonaro':
+
+#        pl +=1
+
+#    elif votar == 'Lula':
+
+#        pt +=1
+
+#    elif votar == 'Ciro':
+
+#        ptd +=1
+
+#print('Bolsonaro ganhou {} votos'.format(pl))
+#print('Lula ganhou {} votos'.format(pt))
+#print('Ciro Gomes ganhou {} votos'.format(ptd))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 25 - ida = 0
+
+#while ida <=0:
+
+#    ida = int(input('Informe a quantidade de idade que gostaria de saber:'))
+
+#    if ida <=0:
+#        print('Digite numeros positivo')
+
+#media = 0
+
+#for i in range(0,ida):
+
+#    idade = int(input('Informe a idade:'))
+
+#    if idade <=25:
+
+#        print('Jovem')
+#        media+=idade
+
+#    elif idade >=26 and idade <=59:
+
+#        print('Adulto')
+#        media+=idade
+
+#    elif idade >=60:
+
+#        print('Idoso')
+#        media+=idade
+
+#soma = media / float(ida)
+
+#print('total de idade e {}'.format(media))
+#print('A media total e {}'.format(soma))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 24- num = 0
+
+#while num <=0:
+
+#    num = int(input('Informe a quantidade de numeros:'))
+
+#    if num <=0:
+#        print('Digite numeros positivos')
+
+#media = 0
+#soma = 0
+
+#for i in range(0, num):
+
+#    numero = int(input('Informe o numero:'))
+
+#    soma+=numero
+
+#    media = soma / num
+
+
+#print('A media aritmética e {}'.format(media))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 19 - qua = 0
+
+#while qua <=0:
+
+#    qua = int(input('Você quer o fatorial de quantos numeros:'))
+
+#    if qua <=0:
+
+#        print(' termo deve ser positivo')
+
+
+#for i in range(0, qua):
+
+#    termo = 0
+
+#    while termo <=0 or termo > 16:
+
+#        termo = int(input('Você quer o fatorial de qual termo:'))
+
+#        if termo <=0:
+#            print('O termo deve ser negativo')
+
+#        if termo > 16:
+#            print('O termo deve ser menor que 16')
+
+
+#    fatorial = 1
+
+#    for i in range(1, termo + 1):
+#        fatorial*=i
+
+#    print(fatorial)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 18 - num = 0
+
+#while num <=0:
+
+#    num = int(input('Qual e a quantidade que deseja:'))
+
+#    if num <=0:
+
+#        print('Numero tem que ser positivo')
+
+#maior = 1
+#conteMa = 0
+#conteMe = 0
+#menor = 1
+#soma = 0
+
+#for i in range(num):
+
+#    numero = int(input('Digite o numero:'))
+
+
+#    if numero > maior:
+#        maior = numero
+#        conteMa +=1
+
+
+#    else:
+#        menor = numero
+#        conteMe +=1
+
+#    soma += numero
+
+
+#print('Maiores são {}'.format(conteMa))
+#print('Menores são {}'.format(conteMe))
+#print('A soma total dos numeros e {}'.format(soma))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 17 - termo = 0
+
+#while termo <=0:
+
+#    termo = int(input('Você quer o fatorial de qual termo>:'))
+
+#    if termo <=0:
+
+#        print(' termo deve ser positivo')
+
+
+
+
+#fatorial = 1
+
+#for i in range(1, termo + 1):
+
+
+#    fatorial *=i
+
+
+#print(fatorial)
+
+
+
+
+
+
+
+
+
+
+# 16 - primeiro = 0
+
+#print( primeiro)
+
+#segundo = 1
+
+#while(segundo <= 500):
+#    print(segundo)
+#    terceiro = primeiro + segundo
+#    primeiro = segundo
+#    segundo = terceiro
+
+
+
+
+
+# 15 - termo = 0
+
+#while termo <= 0:
+
+#    termo = int(input('Você quer a serie de Fibonacci até qual termo:'))
+
+#    if termo <= 0:
+
+#        print('O termo deve ser positivo')
+
+#primeiro = 0
+#print(primeiro)
+
+#segundo = 1
+
+#for i in range(1, termo):
+#    print(segundo)
+#    terceiro = primeiro + segundo
+#    primeiro = segundo
+#    segundo = terceiro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#par = impar = 0
+
+
+#for i in range(0,10):
+
+#    num = int(input('Informe o valor:'))
+
+#    if num % 2 == 0:
+#        par +=1
+
+#    elif num % 2 != 0:
+#        impar +=1
+
+
+#print('Ao todo temos {} numeros pares e {} numeros impares.'.format(par , impar))
+
+
+
+
+
+
+
+
+
+
+
+
+#13 - base = int(input('Informe a base: '))
+#expoente = 0
+
+#while expoente <= 0:
+
+#    expoente = int(input('Informe o expoente: '))
+
+#    if expoente <= 0:
+
+#        print('O expoente tem que ser positivo')
+
+
+#potencia = 1
+
+#for i in range(1, expoente + 1):
+
+#    potencia*=base
+
+#print(base, 'elevada a ', expoente, '=', potencia)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 12 - c = 1
+
+#num = int(input('Digite um valor:'))
+
+#print('Tabuada do', num)
+
+#while c <= 10:
+
+#    soma = num * c
+
+#    print(num , ' x ', c , '= {}'.format(soma))
+#    c+=1
+
+
+
+
+
+# 11 - inicial = int(input('Informe o valor inicial:'))
+#final = inicial
+
+#while final <= inicial:
+
+#    final = int(input('Informe o valor final:'))
+
+#    if final <= inicial:
+
+#        print('O valor final tem que ser maior que o valor inicial')
+
+
+#soma = 0
+#for i in range (inicial , final + 1 ):
+#    soma += i
+#    print(i)
+
+
+#    print('A soma total e {}'.format(soma))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 10 - inicial = int(input('Informe o valor inicial:'))
+#final = inicial
+
+#while final <= inicial:
+
+#    final = int(input('Informe o valor final:'))
+
+#    if final <= inicial:
+
+#        print('O valor final tem que ser maior que o valor inicial')
+
+
+#for i in range (inicial , final + 1):
+
+#    print(i)
+
+
+
+
+
+
+
+
+
+
+
+# 9 - for i in range(1,50):
+
+#    if i % 2 != 0: # or i % 2 == 1
+
+#        print(i)
+
+
+
+
+
+
+
+# 8 - soma = 0
+
+#for i in range(0,5):
+
+#    num = int(input('Informe oo numero:'))
+#    soma +=num
+
+#    media = soma / 5
+
+
+#print('A soma dos numeros é {}'.format(soma))
+#print('A media é {}'.format(media))
+
+
+
+
+
+
+
+
+# 7 - maior = 0
+
+
+#for i in range(1,6):
+
+#    num = int(input('Informe um numero:'))
+
+#    if (num > maior):
+#        maior = num
+
+#print('O maior numero e {}'.format(maior))
+
+
+
+
+
+
+
+
+
+
+# 6 - c = 1
+
+#while c <=20:
+
+#    print(c)
+#    c+=1
+
+#print('================')
+
+#for i in range(1, 21):
+
+#    print(i, end=' ')
+
+
+
+
+
+
+
+# 4 - Define os valores de populacao e crescimento
+#populacaoA = 80000
+#crescimentoA = 1.03
+#populacaoB = 200000
+#crescimentoB = 1.015
+
+# Realiza calculo de anos
+#ano = 1
+#while (populacaoA <= populacaoB):
+#    populacaoA *= crescimentoA
+#    populacaoB *= crescimentoB
+#    ano += 1
+
+# Imprime o resultado
+#print ('Serao necessarios', ano, 'anos para que a populacao do pais A'\
+#    ' ultrapasse a populacao do pais B')
+
+
+#print('Aumento de {}'.format(populacaoA))
+#print('Aumento de `{}'.format(populacaoB))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 2 - nome = ''
+
+#while (len(nome) <=3):
+#    nome = input('Informe um nome:')
+#    if (len(nome) <=3):
+#        print('O nome deve ter mais de tres letras!')
+
+
+
+#idade = -1
+#while(idade < 0) or (idade > 150):
+#    idade = int(input('Informe a idade:'))
+#    if(idade < 0) or (idade > 150):
+#        print('Idade deve estar entre 0 e 150')
+
+
+#salario = 0
+
+#while(salario < 0) or (salario >0):
+#    salario = float(input('Informe o salario:'))
+#    if(salario < 0) or (salario >0):
+#        print('Salario será maior que 0')
+
+#sexo = ''
+
+#while(sexo != 'F') and (sexo != 'M'):
+#    sexo = input('Informe o sexo:').upper()
+#    if(sexo != 'F') and (sexo != 'M'):#Se não for
+#        print('O sexo deve ser informado com M (masculino) ou F (feminino)')
+
+
+
+
+
+
+#estado_Civil = ' '
+
+#while('SCVD'.find(estado_Civil) <0):
+#    estado_Civil = input('Informe o estado Civil:').upper()
+#    if ('SCVD'.find(estado_Civil) <0):
+#        print('Estado civil deve ser informado cpm S (Solteiro ) C (Casado) V (Viuvo) D (Divorciado)')
+
+
+
+
+
+
+
+
+# 1 - usuario = senha = ''
+#while (usuario == senha):
+#    usuario = input('Informe um nome de usuario: ')
+#    senha = input('Informe a senha: ')
+#    if (usuario == senha):
+#        print ('A senha nao pode ser igual ao nome do usuario')
+
